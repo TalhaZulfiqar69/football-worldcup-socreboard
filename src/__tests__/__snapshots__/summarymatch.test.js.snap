@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component snapshot matches 1`] = `
+<div>
+  <h2
+    class="chakra-heading css-18j379d"
+  >
+    Match Summaries
+  </h2>
+  <div
+    class="css-rszk63"
+  >
+    <ol
+      class="css-1dg6mvm"
+      data-testid="match-summary"
+      role="list"
+    >
+      <li
+        class="css-0"
+      >
+        Team A
+         
+        3
+         - 
+        Team B
+         
+        2
+      </li>
+    </ol>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;
