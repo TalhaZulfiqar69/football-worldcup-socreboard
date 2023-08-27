@@ -33,10 +33,6 @@ const Scoreboard = () => {
 
   return (
     <Box alignItems="center">
-      {/* <Heading as="h4" size="md" textAlign={"center"} mb={4}>
-        Click Start Match Button To Start
-      </Heading> */}
-
       {matches.map((match, index) => (
         <Match
           matches={matches}

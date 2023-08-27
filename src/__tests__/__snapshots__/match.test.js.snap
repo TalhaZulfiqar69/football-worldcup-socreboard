@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component snapshot matches 1`] = `
+<div>
+  <div
+    class="css-0"
+  >
+    <div
+      class="chakra-card css-169l99m"
+    >
+      <div
+        class="chakra-card__header css-1sl53ol"
+      >
+        <h4
+          class="chakra-heading css-1886hlo"
+        >
+          Team A
+           VS 
+          Team B
+        </h4>
+      </div>
+      <div
+        class="chakra-card__body css-1idwstw"
+      >
+        <div
+          class="chakra-stack css-j7qwjs"
+        >
+          <h5
+            class="chakra-heading css-18j379d"
+          >
+            Team A
+             
+            0
+             - 
+            Team B
+             
+            0
+          </h5>
+          <div
+            class="chakra-stack__divider css-1q5cbl"
+          />
+          <div
+            class="css-wclpxa"
+          >
+            <div
+              class="css-8atqhb"
+            >
+              <div
+                class="chakra-form-control css-1kxonj9"
+                role="group"
+              >
+                <label
+                  class="chakra-form__label css-1k48i1l"
+                  for="field-:ro:"
+                  id="field-:ro:-label"
+                >
+                  Home Team Name:
+                </label>
+                <input
+                  class="chakra-input css-1cjy4zv"
+                  id="field-:ro:"
+                  placeholder="Enter home team name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="css-8atqhb"
+            >
+              <div
+                class="chakra-form-control css-1kxonj9"
+                role="group"
+              >
+                <label
+                  class="chakra-form__label css-1k48i1l"
+                  for="field-:rp:"
+                  id="field-:rp:-label"
+                >
+                  Home Team Score:
+                </label>
+                <input
+                  class="chakra-input css-1cjy4zv"
+                  id="field-:rp:"
+                  type="number"
+                  value="0"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-stack__divider css-1q5cbl"
+          />
+          <div
+            class="css-wclpxa"
+          >
+            <div
+              class="css-8atqhb"
+            >
+              <div
+                class="chakra-form-control css-1kxonj9"
+                role="group"
+              >
+                <label
+                  class="chakra-form__label css-1k48i1l"
+                  for="field-:rq:"
+                  id="field-:rq:-label"
+                >
+                  Away Team Name:
+                </label>
+                <input
+                  class="chakra-input css-1cjy4zv"
+                  id="field-:rq:"
+                  placeholder="Enter away team name"
+                  type="text"
+                  value=""
+                />
+              </div>
+            </div>
+            <div
+              class="css-8atqhb"
+            >
+              <div
+                class="chakra-form-control css-1kxonj9"
+                role="group"
+              >
+                <label
+                  class="chakra-form__label css-1k48i1l"
+                  for="field-:rr:"
+                  id="field-:rr:-label"
+                >
+                  Away Team Score:
+                </label>
+                <input
+                  class="chakra-input css-1cjy4zv"
+                  id="field-:rr:"
+                  type="number"
+                  value="0"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="chakra-stack__divider css-1q5cbl"
+          />
+          <div
+            class="css-1m6s23t"
+          >
+            <button
+              class="chakra-button css-y7t0mp"
+              type="button"
+            >
+              Update Score
+            </button>
+            <button
+              class="chakra-button css-y7t0mp"
+              type="button"
+            >
+              Finish Match
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</div>
+`;

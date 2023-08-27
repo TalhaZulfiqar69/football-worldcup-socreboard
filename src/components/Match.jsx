@@ -52,7 +52,7 @@ const Match = ({ match, onUpdateScore, onFinish, matches }) => {
                 <FormControl>
                   <FormLabel fontWeight={"bold"}>Home Team Name:</FormLabel>
                   <Input
-                    placeholder="Enter team name"
+                    placeholder="Enter home team name"
                     type="text"
                     value={homeTeam}
                     onChange={(e) => setHomeTeam(e.target.value)}
@@ -76,7 +76,7 @@ const Match = ({ match, onUpdateScore, onFinish, matches }) => {
                 <FormControl>
                   <FormLabel fontWeight={"bold"}>Away Team Name:</FormLabel>
                   <Input
-                    placeholder="Enter team name"
+                    placeholder="Enter away team name"
                     type="text"
                     value={awayTeam}
                     onChange={(e) => setAwayTeam(e.target.value)}

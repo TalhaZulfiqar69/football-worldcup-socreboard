@@ -15,7 +15,7 @@ const MatchSummary = ({ matches }) => {
         Match Summaries
       </Heading>
       <Box mb={4}>
-        <OrderedList>
+        <OrderedList data-testid="match-summary">
           {sortedMatches.map((match, index) => (
             <ListItem key={index}>
               {match.homeTeam} {match.homeScore} - {match.awayTeam}{" "}
