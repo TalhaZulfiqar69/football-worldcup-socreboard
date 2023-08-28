@@ -34,15 +34,17 @@ const Scoreboard = () => {
   return (
     <Box alignItems="center">
       {matches.map((match, index) => (
-        <Match
-          matches={matches}
-          key={index}
-          match={match}
-          onUpdateScore={(homeScore, awayScore, homeTeam, awayTeam) =>
-            handleUpdateScore(index, homeScore, awayScore, homeTeam, awayTeam)
-          }
-          onFinish={() => handleFinishMatch(index)}
-        />
+        <span data-testid="match-summary" key={index}>
+          <Match
+            matches={matches}
+            key={index}
+            match={match}
+            onUpdateScore={(homeScore, awayScore, homeTeam, awayTeam) =>
+              handleUpdateScore(index, homeScore, awayScore, homeTeam, awayTeam)
+            }
+            onFinish={() => handleFinishMatch(index)}
+          />
+        </span>
       ))}
 
       <Heading as="h4" size="md" textAlign={"center"} mb={4}>

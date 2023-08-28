@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="css-zcxndt"
+  >
+    <h4
+      class="chakra-heading css-55m94i"
+    >
+      Click Start Match Button To Start
+    </h4>
+    <button
+      class="chakra-button css-apah0s"
+      type="button"
+    >
+      Start Match
+    </button>
+  </div>
+  <span
+    hidden=""
+    id="__chakra_env"
+  />
+</DocumentFragment>
+`;
